@@ -11,7 +11,7 @@ void setup() {
 
   pinMode(2,OUTPUT); // coloco el pin 2 como salida
   Serial.begin(115200);//confuguracion de velocidad de wifi
-  Serial.println("Inicializado el dispositivo");
+  Serial.println("Inicializando el dispositivo");
   WiFi.begin(nombre,password);
 
   Serial.printf("Estableciendo vinculo con el AP");
